@@ -44,17 +44,26 @@ Esse prójeto é um desadio de código do bootcamp da [DIO](https://www.dio.me/)
 <h2> 👣 Passo-a-Passo</h2>
 
 <p>
-<strong>	1.</strong> <br>
-<strong>	2.</strong>  <br>
+<strong>	1.</strong> Criar Class conteudo, vai ser uma classe mãe de curso e mentoria <br>
+<strong>	2.</strong> Extender a classe conteudo em mentoria e curso <br>
 <strong>	3.</strong> <br> 
 <strong>	4.</strong> <br>
 <strong>	5.</strong> <br></p>
 
 ---
 
-## Herançã e Polimofismo
-Criar Class conteudo, vai ser uma classe mãe de curso e mentoria
--oq é o static
--oq é abstract
-Extende a classe conteudo em mentoria
--Oq é polimofismo (criar um filho pelo pai)
+<h2> Modificador "static" </h2>
+
+<p> O modificador "static" em Java indica que um método, variável ou bloco de código pertence à classe em si, e não a uma instância específica dessa classe. Isso significa que esses membros podem ser acessados diretamente pela classe, sem precisar criar um objeto a partir dela. Um exemplo comum de uso de métodos estáticos é quando eles são utilizados como utilitários, ou seja, funções que realizam tarefas específicas que não estão diretamente relacionadas ao objeto da classe. Variáveis estáticas, por sua vez, são usadas quando se deseja ter um único valor compartilhado por todas as instâncias da classe. Em geral, o uso do modificador "static" deve ser cuidadoso, já que ele pode levar a problemas de concorrência e pode dificultar a manutenção do código.</p>
+
+<h2> A palavra-chave "abstract" </h2>
+
+<p> A palavra-chave "abstract" é usada em Java para indicar que uma classe ou método não pode ser instanciado diretamente, ou seja, não pode ser utilizado por si só. Uma classe abstrata serve como uma classe base para outras classes que podem ser instanciadas. Métodos abstratos são declarados sem uma implementação, e devem ser implementados pelas classes filhas. Isso permite que as classes filhas forneçam uma implementação específica do método, tornando-as mais flexíveis e adaptáveis. Classes e métodos abstratos são marcados com a palavra-chave "abstract" e não podem ser usados diretamente, apenas por meio de suas subclasses ou classes filhas.</p>
+
+<h2> O "extends" </h2>
+
+<p> O extends é uma palavra-chave em Java usada para estabelecer uma relação de herança entre classes. Quando uma classe herda de outra usando o extends, ela adquire os campos e métodos da classe pai e pode adicionar novos campos e métodos ou sobrescrever os já existentes. Isso permite que uma classe filha reutilize o código da classe pai e também possa ter comportamentos específicos adicionais. Para usar a herança em Java, basta incluir a palavra-chave extends seguida do nome da classe pai, após o nome da classe filha, na declaração da classe. Por exemplo: public class MinhaClasseFilha extends MinhaClassePai { ... }.</p>
+
+<h2> O polimorfismo </h2>
+
+<p> polimorfismo em Java é uma característica da programação orientada a objetos que permite que objetos de diferentes classes sejam tratados como se fossem do mesmo tipo. Isso é possível através da herança e da sobrescrita de métodos. Por exemplo, se uma classe Animal possui um método "fazerSom", as classes Cachorro e Gato que herdam de Animal podem sobrescrever esse método e definir um som específico para cada um. Dessa forma, mesmo que os objetos sejam diferentes, eles podem ser tratados como objetos do tipo Animal, já que possuem o mesmo método "fazerSom". O polimorfismo é muito útil para escrever código mais genérico e reutilizável.</p>
