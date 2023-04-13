@@ -45,10 +45,7 @@ Esse prójeto é um desadio de código do bootcamp da [DIO](https://www.dio.me/)
 
 <p>
 <strong>	1.</strong> Criar Class conteudo, vai ser uma classe mãe de curso e mentoria <br>
-<strong>	2.</strong> Extender a classe conteudo em mentoria e curso <br>
-<strong>	3.</strong> <br> 
-<strong>	4.</strong> <br>
-<strong>	5.</strong> <br></p>
+<strong>	2.</strong> Extender a classe conteudo em mentoria e curso <br></p>
 
 ---
 
@@ -67,3 +64,17 @@ Esse prójeto é um desadio de código do bootcamp da [DIO](https://www.dio.me/)
 <h2> O polimorfismo </h2>
 
 <p> polimorfismo em Java é uma característica da programação orientada a objetos que permite que objetos de diferentes classes sejam tratados como se fossem do mesmo tipo. Isso é possível através da herança e da sobrescrita de métodos. Por exemplo, se uma classe Animal possui um método "fazerSom", as classes Cachorro e Gato que herdam de Animal podem sobrescrever esse método e definir um som específico para cada um. Dessa forma, mesmo que os objetos sejam diferentes, eles podem ser tratados como objetos do tipo Animal, já que possuem o mesmo método "fazerSom". O polimorfismo é muito útil para escrever código mais genérico e reutilizável.</p>
+
+## Aula 3
+
+<h2> 👣 Passo-a-Passo</h2>
+
+<p>
+<strong>	1.</strong> Criar Class Bootcamp e Dev.<br>
+<strong>	2.</strong> Sobeescreve o equals e hashCode<br></p>
+
+---
+
+<h2> O pequals e hashCode </h2>
+
+<p> Os métodos equals e hashCode são usados em Java para comparar objetos. O método equals compara se dois objetos são iguais e o método hashCode retorna um valor inteiro único para cada objeto. Esses métodos são importantes para garantir a consistência em coleções Java, como o HashSet e o HashMap. O método equals é usado para verificar se um objeto já existe em uma coleção, enquanto o método hashCode é usado para recuperar o objeto correspondente. É importante lembrar que se dois objetos são iguais de acordo com o método equals, eles devem ter o mesmo valor de hashCode.</p>
