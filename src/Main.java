@@ -58,6 +58,5 @@ public class Main {
         System.out.println("Conteúdos inscritos de Paulo" + devPaulo.getConteudosInscritos());
         System.out.println("Conteúdos concluídos de Paulo" + devPaulo.getConteudosConcluidos());
         System.out.println("XP: " + devPaulo.calcularTotalXp());
-
     }
 }
