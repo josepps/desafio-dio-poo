@@ -78,3 +78,18 @@ Esse prójeto é um desadio de código do bootcamp da [DIO](https://www.dio.me/)
 <h2> O pequals e hashCode </h2>
 
 <p> Os métodos equals e hashCode são usados em Java para comparar objetos. O método equals compara se dois objetos são iguais e o método hashCode retorna um valor inteiro único para cada objeto. Esses métodos são importantes para garantir a consistência em coleções Java, como o HashSet e o HashMap. O método equals é usado para verificar se um objeto já existe em uma coleção, enquanto o método hashCode é usado para recuperar o objeto correspondente. É importante lembrar que se dois objetos são iguais de acordo com o método equals, eles devem ter o mesmo valor de hashCode.</p>
+
+## Aula 4
+
+<h2> 👣 Passo-a-Passo - inplementando lógica</h2>
+
+<p>
+<strong>	1.</strong> Se increver em bootcamps<br>
+<strong>	2.</strong> Progredir do bootcamp<br>
+<strong>	3.</strong> Calcular XP<br></p>
+
+---
+
+<h2> Opcional (Optional) </h2>
+
+<p> Opcional (Optional) em Java é um recurso introduzido no Java 8 para lidar com valores nulos de forma mais segura e elegante. Ele permite que você envolva um objeto que pode ou não ser nulo em um objeto Optional e, em seguida, trate o objeto nulo de maneira mais segura e legível. Você pode verificar se um objeto Optional contém um valor ou não usando métodos como isPresent() e isEmpty(), e também pode obter o valor contido no objeto Optional usando get(). No entanto, para evitar exceções de NullPointerException, é recomendável usar outros métodos como orElse(), orElseGet() e orElseThrow() para lidar com valores nulos. O uso de Optionals pode tornar o código mais claro e menos propenso a erros ao lidar com valores nulos em Java.</p>
